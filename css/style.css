@@ -58,7 +58,7 @@ div{
   
   .titulo { grid-area: titulo;
     color: blue;
-    background-color: rgb(134, 168, 231);
+    background-color: rgb(54, 173, 90);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,9 +82,7 @@ div{
   .texto-historia { grid-area: texto-historia; 
 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 background-color: rgb(108, 211, 211);
-
 }
-  
 
 .texto {
     border: dotted 1px;
