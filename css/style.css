@@ -1,3 +1,6 @@
+*{margin:0;
+padding: 0;}
+
 .titulos{ color: blue;
 background-color: cornflowerblue;
 display: flex
@@ -52,7 +55,7 @@ div{
     grid-template-areas:
       "titulo titulo"
       "foto foto2"
-      "texto-historia texto-historia";
+      " texto-historia texto-historia";
       margin: auto;
   }
   
@@ -79,12 +82,9 @@ div{
     background-color: blueviolet;
      width: auto; }
 
-  .texto-historia { grid-area: texto-historia; 
-font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-background-color: rgb(108, 211, 211);
-}
 
-.texto {
+
+.texto-historia {
     border: dotted 1px;
     padding: 20px;
     background-color: rgb(122, 112, 207);
