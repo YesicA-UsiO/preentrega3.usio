@@ -30,7 +30,7 @@ img{width: 150px;}
     color black;
     border: solid 2px blue ;
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
 
 .fecha { grid grid-area: fecha; 
@@ -61,6 +61,7 @@ justify-content: space-around
 
 .img-carousel{
     width: 250px;
+    border: 20px red solid;
    }
 
 .Historia{ display: grid;
