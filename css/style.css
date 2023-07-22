@@ -19,19 +19,16 @@ img{width: 150px;}
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 150%;}
 
-.formulario{ display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-auto-columns: 1fr;
-    gap: 5px 5px;
-    grid-auto-flow: row dense;
-    border: solid black 100px;
-    justify-items: center;
-    align-items: center;}
+.formulario{   display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+padding: 50px;}
 
 .mano {grid-area:mano
     color black;
-    border: solid 2px blue ;}
+    border: solid 2px blue ;
+display: flex;
+}
 
 .fecha { grid grid-area: fecha; 
     background-color: black;
@@ -74,12 +71,14 @@ grid-template-columns: 1fr 1fr 1fr 1fr;}
 .titulo {grid-area: titulo;
 color: red ;
 border-color:blue;
+margin: 10px;
 }
 
 .foto { grid-area: foto;
     border-color: green;
     display: flex;
-    justify-content: center;}
+    justify-content: center;
+    margin: 10px;}
 
 .Alejandro-dueño{width: 450px;}
 
@@ -87,20 +86,23 @@ border-color:blue;
 .foto2 {    grid-area: foto2;
     border-color: green;
     display: flex;
-    justify-content: center}
+    justify-content: center;
+    margin: 10px;}
 
 .Alejandro-hijo{width: 450px;}
 
 .foto3{ grid-area: foto3;
     border-color: green;
     display: flex;
-    justify-content: center}
+    justify-content: center;
+    margin: 10px;}
 
 .Alejandro-hijo2{width: 450px;}
 
 .texto-historia {grid-area: texto-historia;
 color: blue;
-border-color: red;}
+border-color: red;
+margin: 10px;}
 
 span{ color: red;}
 
@@ -128,17 +130,37 @@ form{ background-color: black;
 .img-footer{ background-color: black;}
 
 
-@media(max-width:500px) {
-    .container {  display: grid;
+@media(max-width:820px) {
+    .Historia {  display: grid;
         grid-template-columns: 1fr;
         grid-template-areas:
           "titulo"
           "foto" 
           "foto2"
+          "foto3"
           "texto-historia";
-          margin: auto;
-      }}
+          margin: auto;}
 
-@media(max-width:500px){.pregunta { color:rgb(212, 15, 15);
-    background-color: crimson
-   ;}}
+      .Alejandro-dueño{width: auto;}
+
+      .Alejandro-hijo{width: auto;}
+
+      .Alejandro-hijo2{width: auto;}
+    }
+
+
+
+@media(max-width:820px){.pregunta { color:rgb(212, 15, 15);
+    background-color: rgb(189, 79, 101);}
+
+   .formulario{ display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area: 
+    "mano"
+    "fecha"
+    "enviar";
+    border: solid black 100px;
+    justify-items: center;
+    align-items: center;}
+}
