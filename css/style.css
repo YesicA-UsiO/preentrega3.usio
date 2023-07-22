@@ -113,6 +113,10 @@ span{ color: red;}
 color: blue;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
+form{ background-color: black; 
+    padding: 90px;
+;}
+
 .footer-principal{
     background-color: black ;
     display: flex;
