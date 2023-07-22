@@ -43,7 +43,7 @@ border: solid 2px blue ;}
 
 div{border: solid 2px;
     padding: 10px;
-    display: inline-block;
+    
     font-size: medium;
     font-family: fantasy;}
 
@@ -102,16 +102,16 @@ border-color:blue;
 color: blue;
 border-color: red;}
 
-.span{ color: red;}
+span{ color: red;}
 
+.main-bebidas{display: flex;
+    justify-content: center;}
 
-.tipo-de-bebidas {
-    border: outset 3px;
-    padding: 5px;
-    background-color: rgb(221, 34, 143);
-    font-size: smaller;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    overflow: hidden;}
+.card-body{padding: 0px;}
+
+.card-text {background-color: black;
+color: blue;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 .footer-principal{
     background-color: black ;
