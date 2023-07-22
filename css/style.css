@@ -1,9 +1,14 @@
 *{margin:0;
 padding: 0;}
 
-body{
+header{
     background-color: black;
 }
+
+main{
+    background-color: black;
+}
+
 
 .titulos{ color: blue;
 background-color: cornflowerblue;
@@ -108,12 +113,16 @@ span{
     overflow: hidden;}
 
 .footer-principal{
+    background-color: black ;
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-end}
 
 .footer {
-    width: 25px;}
+    width: 45px;}
+
+.img-footer{ background-color: black;}
+
 
 @media(max-width:500px) {
     .container {  display: grid;
