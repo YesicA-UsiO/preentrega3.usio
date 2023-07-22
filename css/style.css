@@ -17,7 +17,9 @@ img{width: 150px;}
 .pregunta { 
     color: rgb(16, 31, 163);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 150%;}
+    font-size: 150%;
+    display: flex;
+    align-items: center;}
 
 .formulario{   display: flex;
     flex-wrap: nowrap;
@@ -27,7 +29,8 @@ img{width: 150px;}
 .mano {grid-area:mano
     color black;
     border: solid 2px blue ;
-display: flex;
+    display: flex;
+    align-items: center;
 }
 
 .fecha { grid grid-area: fecha; 
